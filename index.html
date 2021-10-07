@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+   <link rel="stylesheet" href="css/style.css"/>
+   <link rel="stylesheet" href="css/media.css"/>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width">
+   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+   <title>Callan Education</title>
+</head>
+
+<body id="body">
+   <div class="wrapper">
+      <div class="content">
+         <section class="first-content">
+            <div class="container">
+               <header class="header">
+                  <div class="header__row">
+                     <a href="" class="header__logo">
+                        <img src="img/header/logo.png" alt="">
+                     </a>
+                     <div class="header__soc">
+                        <a href="" class="header__soc__item">
+                           <svg class="header__soc__item-svg" width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path fill-rule="evenodd" clip-rule="evenodd" d="M11.2535 0.686432H4.28918C1.92413 0.686432 0 2.61065 0 4.9757V11.94C0 14.3052 1.92413 16.2293 4.28918 16.2293H11.2535C13.6187 16.2293 15.5429 14.3051 15.5429 11.94V4.9757C15.543 2.61065 13.6187 0.686432 11.2535 0.686432ZM7.77141 4.45286C5.56302 4.45286 3.76641 6.24947 3.76641 8.45786C3.76641 10.6662 5.56302 12.4627 7.77141 12.4627C9.9798 12.4627 11.7764 10.6662 11.7764 8.45786C11.7764 6.24947 9.9798 4.45286 7.77141 4.45286ZM7.77141 11.0836C6.32351 11.0836 5.14544 9.90567 5.14544 8.45777C5.14544 7.00978 6.32342 5.83181 7.77141 5.83181C9.2194 5.83181 10.3974 7.00978 10.3974 8.45777C10.3974 9.90567 9.21931 11.0836 7.77141 11.0836ZM11.23 3.57957C11.4177 3.39111 11.6787 3.28354 11.9444 3.28354C12.211 3.28354 12.4721 3.39111 12.6596 3.57957C12.8481 3.76712 12.9556 4.02822 12.9556 4.29483C12.9556 4.56053 12.8481 4.82163 12.6596 5.0101C12.4711 5.19764 12.211 5.30613 11.9444 5.30613C11.6787 5.30613 11.4176 5.19764 11.23 5.0101C11.0415 4.82163 10.9331 4.56062 10.9331 4.29483C10.9331 4.02822 11.0414 3.76712 11.23 3.57957Z"/>
+                           </svg>
+                        </a>
+                        <a href="" class="header__soc__item">
+                           <svg class="header__soc__item-svg" width="10" height="17" viewBox="0 0 10 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M6.87437 3.61214C6.89801 3.58541 7.00854 3.4981 7.44262 3.4981L8.75898 3.49757C9.22197 3.49757 9.59847 3.12027 9.59847 2.65645V0.844563C9.59847 0.381535 9.2225 0.00423342 8.7603 0.00343964L7.4081 0C6.10336 0 5.32169 0.0911452 4.52802 0.907C3.73791 1.71915 3.32021 2.85291 3.32021 4.1855V5.86947H1.70303C1.24003 5.86947 0.863403 6.24678 0.863403 6.7106V8.71431C0.863403 9.17813 1.24003 9.55543 1.70303 9.55543H3.32021V16.1589C3.32021 16.6227 3.69684 17 4.15984 17H5.94931C6.4123 17 6.78893 16.6227 6.78893 16.1589V9.55556H8.76571C9.22871 9.55556 9.6052 9.17813 9.6052 8.71457L9.60626 6.71073C9.60626 6.40606 9.44079 6.12414 9.1743 5.97505C9.05082 5.90599 8.90714 5.86947 8.75898 5.86947H6.78893V4.12769C6.78893 3.78161 6.83542 3.65632 6.87437 3.61214Z"/>
+                           </svg>
+                        </a>
+                        <a href="" class="header__soc__item">
+                           <svg class="header__soc__item-svg" width="19" height="14" viewBox="0 0 19 14" xmlns="http://www.w3.org/2000/svg">
+                              <path fill-rule="evenodd" clip-rule="evenodd" d="M18.1602 11.2983C18.5387 9.84285 18.5387 6.82454 18.5387 6.82454C18.5387 6.82454 18.5539 3.79124 18.1602 2.3358C17.9481 1.53915 17.3272 0.91078 16.5397 0.696404C15.1011 0.29808 9.34647 0.29808 9.34647 0.29808C9.34647 0.29808 3.59186 0.29808 2.15321 0.681188C1.3808 0.895565 0.744643 1.53915 0.53274 2.3358C0.154053 3.79124 0.154053 6.80932 0.154053 6.80932C0.154053 6.80932 0.154053 9.84285 0.53274 11.2829C0.744867 12.0795 1.36576 12.7079 2.15321 12.9222C3.6069 13.3206 9.34647 13.3206 9.34647 13.3206C9.34647 13.3206 15.1011 13.3206 16.5397 12.9375C17.3272 12.7231 17.9481 12.0949 18.1602 11.2983ZM12.2994 6.80932L7.51409 9.59759V4.02106L12.2994 6.80932Z"/>
+                              <defs>
+                                 <linearGradient id="header__soc__item-svg_gr" x1="23.6187" y1="-12.039" x2="3.08359" y2="31.143" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#C6EAFF"/>
+                                    <stop offset="1" stop-color="#81D0FF"/>
+                                 </linearGradient>
+                              </defs>
+                           </svg>
+                        </a>  
+                     </div>
+                     <nav class="header__menu">
+                        <ul class="header__menu__list">
+                           <li><a href="" class="header__menu__link">Главная</a></li>
+                           <li><a href="" class="header__menu__link">О нас</a></li>
+                           <li><a href="" class="header__menu__link">Услуги</a></li>
+                           <li><a href="" class="header__menu__link">Университеты</a></li>
+                           <li><a href="" class="header__menu__link">Студенты</a></li>
+                           <li><a href="" class="header__menu__link">Новости</a></li>
+                           <li><a href="" class="header__menu__link">Контакты</a></li>
+                        </ul>
+                     </nav>
+                     <nav class="header-mobile__menu">
+                        <div class="header-mobile__lang">
+                           <a href="" class="header__lang__item header__lang__item-active">РУС</a>
+                           <a href="" class="header__lang__item">UZ</a>
+                        </div>
+                        <ul class="header__menu__list">
+                           <li><a href="" class="header__menu__link">Главная</a></li>
+                           <li><a href="" class="header__menu__link">О нас</a></li>
+                           <li><a href="" class="header__menu__link">Услуги</a></li>
+                           <li><a href="" class="header__menu__link">Университеты</a></li>
+                           <li><a href="" class="header__menu__link">Студенты</a></li>
+                           <li><a href="" class="header__menu__link">Новости</a></li>
+                           <li><a href="" class="header__menu__link">Контакты</a></li>
+                        </ul>
+                        <button type="button" class="header-mobile__btn">
+                           <div class="header__btn__img">
+                              <img src="img/header/4.svg" alt="">
+                           </div>
+                           <div class="header__btn__text">
+                              Оставить заявку
+                           </div>
+                        </button>
+                        <div class="header-mobile__contacts">
+                           <div class="footer-bottom__contacts__body footer-bottom__contacts__body__time header-mobile__contacts__body">
+                              Пн-Пт 9:00 - 18:00
+                           </div>
+                           <div class="footer-bottom__contacts__body footer-bottom__contacts__body__address header-mobile__contacts__body">
+                              г. Город <span>ул. Улица, 24 (Офис 24)</span>
+                           </div>
+                        </div>
+                     </nav>
+                     <div class="header__lang">
+                        <a href="" class="header__lang__item header__lang__item-active">РУС</a>
+                        <a href="" class="header__lang__item">UZ</a>
+                     </div>
+                     <button type="button" class="header__btn">
+                        <div class="header__btn__img">
+                           <img src="img/header/4.svg" alt="">
+                        </div>
+                        <div class="header__btn__text">
+                           Оставить заявку
+                        </div>
+                     </button>
+                     <div class="header__burger">
+                        <span></span>
+                     </div>
+                  </div>
+               </header>
+               <div class="first-content__body">
+                     <h1 class="first-content__body__title">
+                        Грант и контрактное обучение в <span>зарубежных</span> вузах
+                     </h1>
+                     <div class="first-content__body__text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                     </div>
+                     <button type="button" class="first-content__body__btn button">
+                        <div class="first-content__body__btn__img button__img">
+                           <img src="img/header/telephone-call.svg" alt="">
+                        </div>
+                        <div class="first-content__body__btn__text button__text">
+                           Связаться с нами
+                        </div>
+                     </button>
+               </div>
+               <div class="first-content__bottom">
+                     <div class="first-content__bottom__city">
+                        г. Город<span> ул. Улица, 24 (Офис 24)</span>
+                     </div>
+                     <div class="first-content__bottom__timetable">
+                        Пн-Пт 9:00 - 18:00
+                     </div>
+               </div>
+            </div>
+            <img src="img/header/tree.png" class="first-content__tree" alt="">
+         </section>
+
+         <div class="clouds">
+            <section class="why">
+               <div class="container">
+                  <div class="why__subtitle subtitle">
+                     Добро пожаловать в нашу группу иностранного образования
+                  </div>
+                  <h2 class="why__title title">
+                     Почему мы?
+                  </h2>
+                  <div class="why__row">
+                     <div class="why__column">
+                        <div class="why__item">
+                           <div class="why__column__img">
+                              <img src="img/why/1.svg" alt="">
+                           </div>
+                           <h3 class="why__column__text">
+                              <span> Сертифицированные услуги </span>нашей профессиональной команды
+                           </h3>
+                        </div>
+                     </div>
+                     <div class="why__column">
+                        <div class="why__item">
+                           <div class="why__column__img">
+                              <img src="img/why/2.svg" alt="">
+                           </div>
+                           <h3 class="why__column__text">
+                              <span> Высокие </span> визовые ставки (98% наших студентов получили визу)
+                           </h3>
+                        </div>
+                     </div>
+                     <div class="why__column">
+                        <div class="why__item">
+                           <div class="why__column__img">
+                              <img src="img/why/3.svg" alt="">
+                           </div>
+                           <h3 class="why__column__text">
+                              Учеба в <span> престижных</span> университетах, которые входят в Топ-1000
+                           </h3>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </section>
+
+            <section class="univer">
+               <div class="container">
+                  <div class="univer__row">
+                     <div class="univer__body">
+                        <h2 class="univer__title title">
+                           Университеты
+                        </h2>
+                        <div class="univer__subtitle subtitle">
+                           В нашем каталоге вы найдете более 100 университетов из более чем 14 стран
+                        </div>
+                     </div>
+                     <a href="" class="univer__link link-all">
+                        Смотреть все
+                     </a>
+                  </div>
+                  <div class="univer__slider swiper-container">
+                     <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                           <div class="swiper-slide__img">
+                              <img src="img/univer/1.jpg" alt="russia">
+                           </div>
+                           <div class="swiper-slide__body">
+                              <div class="swiper-slide__body__country">
+                                 Россия
+                              </div>
+                              <div class="swiper-slide__body__number">
+                                 15 вузов
+                              </div>
+                           </div>
+                        </div>
+                        <div class="swiper-slide">
+                           <div class="swiper-slide__img">
+                              <img src="img/univer/1.jpg" alt="russia">
+                           </div>
+                           <div class="swiper-slide__body">
+                              <div class="swiper-slide__body__country">
+                                 Россия
+                              </div>
+                              <div class="swiper-slide__body__number">
+                                 15 вузов
+                              </div>
+                           </div>
+                        </div>
+                        <div class="swiper-slide">
+                           <div class="swiper-slide__img">
+                              <img src="img/univer/1.jpg" alt="russia">
+                           </div>
+                           <div class="swiper-slide__body">
+                              <div class="swiper-slide__body__country">
+                                 Россия
+                              </div>
+                              <div class="swiper-slide__body__number">
+                                 15 вузов
+                              </div>
+                           </div>
+                        </div>
+                        <div class="swiper-slide">
+                           <div class="swiper-slide__img">
+                              <img src="img/univer/1.jpg" alt="russia">
+                           </div>
+                           <div class="swiper-slide__body">
+                              <div class="swiper-slide__body__country">
+                                 Россия
+                              </div>
+                              <div class="swiper-slide__body__number">
+                                 15 вузов
+                              </div>
+                           </div>
+                        </div>
+                        <div class="swiper-slide">
+                           <div class="swiper-slide__img">
+                              <img src="img/univer/1.jpg" alt="russia">
+                           </div>
+                           <div class="swiper-slide__body">
+                              <div class="swiper-slide__body__country">
+                                 Россия
+                              </div>
+                              <div class="swiper-slide__body__number">
+                                 15 вузов
+                              </div>
+                           </div>
+                        </div>
+                        <div class="swiper-slide">
+                           <div class="swiper-slide__img">
+                              <img src="img/univer/1.jpg" alt="russia">
+                           </div>
+                           <div class="swiper-slide__body">
+                              <div class="swiper-slide__body__country">
+                                 Россия
+                              </div>
+                              <div class="swiper-slide__body__number">
+                                 15 вузов
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <!--<div class="swiper-button-prev"></div>
+                     <div class="swiper-button-next"></div>-->
+                  </div>
+               </div>
+            </section>
+            
+            <section class="reviews">
+               <div class="container">
+                  <h2 class="reviews__title title">
+                     Отзывы наших студентов
+                  </h2>
+                  <div class="reviews__row">
+                     <div class="reviews__column">
+                        <div class="reviews__column__item">
+                           <div class="reviews__column__img">
+                              <img src="img/reviews/1.png" alt="">
+                           </div>
+                           <div class="reviews__column__body">
+                              <div class="reviews__column__name">
+                                 Александр Иванов
+                              </div>
+                              <div class="reviews__column__text">
+                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation. Lorem ipsum dolor sit amet, consectetur adipiscing elit!
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="reviews__column">
+                        <div class="reviews__column__item">
+                           <div class="reviews__column__img">
+                              <img src="img/reviews/2.png" alt="">
+                           </div>
+                           <div class="reviews__column__body">
+                              <div class="reviews__column__name">
+                                 Александр Иванов
+                              </div>
+                              <div class="reviews__column__text">
+                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation. Lorem ipsum dolor sit amet, consectetur adipiscing elit!
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="reviews__column">
+                        <div class="reviews__column__item">
+                           <div class="reviews__column__img">
+                              <img src="img/reviews/1.png" alt="">
+                           </div>
+                           <div class="reviews__column__body">
+                              <div class="reviews__column__name">
+                                 Александр Иванов
+                              </div>
+                              <div class="reviews__column__text">
+                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation. Lorem ipsum dolor sit amet, consectetur adipiscing elit!
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </section>
+
+            <section class="photo">
+                  <div class="container">
+                     <div class="photo__row">
+                        <h2 class="photo__title title">
+                           Фотографии наших студентов
+                        </h2>
+                        <a href="" class="photo__link link-all">
+                           Истории студентов
+                        </a>
+                     </div>
+                     <div class="photo-students__row">
+                        <div class="photo-students__column">
+                           <div class="photo-students__item">
+                              <img src="img/photo/1.png" alt="">
+                           </div>
+                        </div>
+                        <div class="photo-students__column">
+                           <div class="photo-students__item">
+                              <img src="img/photo/1.png" alt="">
+                           </div>
+                        </div>
+                        <div class="photo-students__column">
+                           <div class="photo-students__item">
+                              <img src="img/photo/1.png" alt="">
+                           </div>
+                        </div>
+                        <div class="photo-students__column">
+                           <div class="photo-students__item">
+                              <img src="img/photo/1.png" alt="">
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+            </section>
+
+            <section class="questions">
+               <div class="container questions-container">
+                  <h2 class="questions__title title">
+                     Вопросы и ответы
+                  </h2>
+                  <div class="questions__row one">
+                     <div class="questions__item">
+                        <div class="questions__item__row one">
+                           <div class="questions__item__title">
+                              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod?
+                           </div>
+                           <div class="questions__item___btn-wrapper">
+                              <div class="questions__item___btn"></div>
+                           </div>
+
+                           <div class="questions__item__text">
+                              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation. Lorem ipsum dolor sit amet, consectetur adipiscing elit! Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation. Lorem ipsum dolor sit amet, consectetur adipiscing elit! Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation. 
+                           </div>
+                        </div>
+                     </div>
+                     <div class="questions__item">
+                        <div class="questions__item__row one">
+                           <div class="questions__item__title">
+                              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod?
+                           </div>
+                           <div class="questions__item___btn-wrapper">
+                              <div class="questions__item___btn"></div>
+                           </div>
+
+                           <div class="questions__item__text">
+                              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation. Lorem ipsum dolor sit amet, consectetur adipiscing elit! Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation. Lorem ipsum dolor sit amet, consectetur adipiscing elit! Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation. 
+                           </div>
+                        </div>
+                     </div>
+                     <div class="questions__item">
+                        <div class="questions__item__row one">
+                           <div class="questions__item__title">
+                              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod?
+                           </div>
+                           <div class="questions__item___btn-wrapper">
+                              <div class="questions__item___btn"></div>
+                           </div>
+
+                           <div class="questions__item__text">
+                              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation. Lorem ipsum dolor sit amet, consectetur adipiscing elit! Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation. Lorem ipsum dolor sit amet, consectetur adipiscing elit! Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation. 
+                           </div>
+                        </div>
+                     </div>
+                     <div class="questions__item">
+                        <div class="questions__item__row one">
+                           <div class="questions__item__title">
+                              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod?
+                           </div>
+                           <div class="questions__item___btn-wrapper">
+                              <div class="questions__item___btn"></div>
+                           </div>
+
+                           <div class="questions__item__text">
+                              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation. Lorem ipsum dolor sit amet, consectetur adipiscing elit! Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation. Lorem ipsum dolor sit amet, consectetur adipiscing elit! Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation. 
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </section>
+            
+            <section class="form">
+               <div class="container">
+                  <div class="form__specialist">
+                     <div class="form__specialist__name">
+                        Анна
+                     </div>
+                     <div class="form__specialist__text">
+                        Специалист по обучению в Великобритании
+                     </div>
+                  </div>
+                  <div class="form__row">
+                     <form action="" class="form__send-wrapper">
+                        <div class="form__send-wrapper-border">
+                           <div class="form__send__body">
+                              <div class="form__send__title">
+                                 Связаться с нами
+                              </div>
+                              <div class="form__send__subtitle">
+                                 Оставьте свои данные и наш специалист обязательно свяжемся с Вами в течение дня
+                              </div>
+                           </div>
+                           <div class="form__send__input-wrapper">
+                              <div class="form__send__input__img"><img src="img/form/1.svg" alt=""></div>
+                              <input class="form__send__input" id="user" type="text" placeholder="Ваше имя" required>
+                           </div>
+                           <div class="form__send__input-wrapper">
+                              <div class="form__send__input__img"><img src="img/form/2.svg" alt=""></div>
+                              <input class="form__send__input" id="phone" type="tel" placeholder="+998 (___) __ - __ - __" required>
+                           </div>
+                           <div class="form__send__input-wrapper">
+                              <div class="form__send__input__img"><img src="img/form/3.svg" alt=""></div>
+                              <textarea id="comment" name="text" class="form__send__textarea" placeholder="Дополнительные комментарии"></textarea>
+                           </div>
+                           <button class="form__send__btn button" type="submit">
+                              <div class="form__send__btn__img button__img">
+                                 <img src="img/form/arr.svg" alt="">
+                              </div>
+                              <div class="form__send__btn__text button__text">
+                                 Отправить
+                              </div>
+                           </button>
+                        </div>
+                     </form>
+                  </div>
+
+               </div>
+            </section>
+            
+            <section class="contacts">
+               <div class="container">
+                  <div class="contacts__title title">
+                     Остались вопросы?
+                  </div>
+                  <div class="contacts__subtitle subtitle">
+                     Свяжитесь с нами и мы ответим на все ваши вопросы
+                  </div>
+                  <div class="contacts__row">
+                     <div class="contacts__wrapper">
+                        <div class="contacts__border">
+                           <div class="contacts__body contacts__body-phones">
+                              <div class="contacts__body__title">
+                                 Телефоны
+                              </div>
+                              <div class="contacts__body__text">
+                                 <p>+998 (99) 878-63-99</p>
+                                 <p>+998 (99) 878-63-99</p>
+                              </div>
+                           </div>
+                           <div class="contacts__body contacts__body-address">
+                              <div class="contacts__body__title">
+                                 Адрес
+                              </div>
+                              <div class="contacts__body__text">
+                                 <p>г. Город, ул. Улица, 24 (Офис 24)</p>
+                              </div>
+                           </div>
+                           <div class="contacts__body contacts__body-time">
+                              <div class="contacts__body__title">
+                                 Время работы
+                              </div>
+                              <div class="contacts__body__text">
+                                 <p>Пн-Пт 9:00 - 18:00</p>
+                              </div>
+                           </div>
+                           <button type="button" class="contacts__body__btn button">
+                              <div class="contacts__body__btn__img button__img">
+                                 <img src="img/header/telephone-call.svg" alt="">
+                              </div>
+                              <div class="contacts__body__btn__text button__text">
+                                 Связаться с нами
+                              </div>
+                           </button>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </section>
+         </div>
+         <footer class="footer">
+            <div class="footer-border">
+               <div class="container">
+                  <div class="footer__row">
+                     <div class="footer-top">
+                        <a href="" class="footer-top__logo">
+                           <img src="img/footer/logo.png" alt="">
+                        </a>
+                        <nav class="footer-top__menu">
+                           <ul class="footer-top__list">
+                              <li>
+                                 <a href="" class="footer-top__link">Главная</a>
+                              </li>
+                              <li>
+                                 <a href="" class="footer-top__link">О нас</a>
+                              </li>
+                              <li>
+                                 <a href="" class="footer-top__link">Услуги</a>
+                              </li>
+                              <li>
+                                 <a href="" class="footer-top__link">Университеты</a>
+                              </li>
+                              <li>
+                                 <a href="" class="footer-top__link">Студенты</a>
+                              </li>
+                              <li>
+                                 <a href="" class="footer-top__link">Новости</a>
+                              </li>
+                              <li>
+                                 <a href="" class="footer-top__link">Контакты</a>
+                              </li>
+                           </ul>
+                        </nav>
+                        <div class="footer-top__icons">
+                           <a href=""><img src="img/footer/1.svg" alt=""></a>
+                           <a href=""><img src="img/footer/2.svg" alt=""></a>
+                           <a href=""><img src="img/footer/3.svg" alt=""></a>
+                        </div>
+                     </div>
+                     <div class="footer-bottom">
+                        <div class="footer-bottom__row">
+                           <a href="" class="footer-bottom__logo">
+                              <img src="img/footer/logo2.png" alt="">
+                           </a>
+                           <div class="footer-bottom__contacts">
+                              <div class="footer-bottom__contacts__body footer-bottom__contacts__body__phone">
+                                 <p>+998 (99) 878-63-99</p>
+                                 <p>+998 (99) 878-63-99</p>
+                              </div>
+                              <div class="footer-bottom__contacts__body footer-bottom__contacts__body__time">
+                                 Пн-Пт 9:00 - 18:00
+                              </div>
+                              <div class="footer-bottom__contacts__body footer-bottom__contacts__body__address">
+                                 г. Город <span>ул. Улица, 24 (Офис 24)</span>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </footer>
+      </div>
+   </div>
+
+   <!-- SWIPER -->
+   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+   <script src="js/script.js"></script>
+</body>
+
+</html>
