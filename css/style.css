@@ -999,7 +999,7 @@ body {
 .contacts {
   padding: 61px 0 10px 0;
   height: 630px;
-  background: url("../img/contacts/bc1.png") no-repeat;
+  background: url("../img/contacts/bc1.png") -10% no-repeat;
   background-size: cover;
 }
 
